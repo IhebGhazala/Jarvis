@@ -1,11 +1,11 @@
 import speech_recognition as sr
 import openai
 
-from elevenlabslib import *
+from elevenlabslib import ElevenLabsUser
 
-openai.api_key = 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
+openai.api_key = "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"
 
-elevenLabsAPIKey = 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
+elevenLabsAPIKey = "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"
 
 r = sr.Recognizer()
 mic = sr.Microphone()
