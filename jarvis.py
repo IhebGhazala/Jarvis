@@ -5,7 +5,7 @@ from elevenlabslib import ElevenLabsUser
 
 openai.api_key = "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"
 
-elevenLabsAPIKey = "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"
+elevenLabsAPIKey = "107336cf9ea4fdd0bf2217116f040f4e"
 
 r = sr.Recognizer()
 mic = sr.Microphone()
