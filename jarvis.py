@@ -3,9 +3,9 @@ import openai
 
 from elevenlabslib import *
 
-openai.api_key = 'YOUR KEY HERE'
+openai.api_key = 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
 
-elevenLabsAPIKey = 'YOUR KEY HERE'
+elevenLabsAPIKey = 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
 
 r = sr.Recognizer()
 mic = sr.Microphone()
@@ -14,7 +14,7 @@ user = ElevenLabsUser(elevenLabsAPIKey)
 voice = user.get_voices_by_name("Jarvis")[0]
 
 conversation = [
-        {"role": "system", "content": "Your name is Jarvis and your purpose is to be Adam's AI assistant"},
+        {"role": "system", "content": "Your name is Jarvis and your purpose is to be Bhives's AI assistant"},
     ]
 
 
