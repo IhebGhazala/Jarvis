@@ -11,7 +11,7 @@ r = sr.Recognizer()
 mic = sr.Microphone()
 user = ElevenLabsUser(elevenLabsAPIKey)
 
-voice = user.get_voices_by_name("Jarvis")[0]
+voice = user.get_voices_by_name("Bruce - Deep American Narrator Voice")[0]
 
 conversation = [
         {"role": "system", "content": "Your name is Jarvis and your purpose is to be Bhives's AI assistant"},
